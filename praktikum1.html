@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktikum 1 : Belajar Pengenalan Jquery Dasar</title>
+        <script type="text/javascript" src="aset/js/jquery-3.3.1.min.js"></script>
+        <!--
+            online
+            <script type="text/javascript" src="aset/js/jquery-3.3.1.min.js"></script>
+        -->
+        <link rel="stylesheet" type="text/css" herf="asset/css/stylel.css">
+    </head>
+    <body>
+        <h1>Tutorial JQuery</h1>
+        <button id="tombol">TOMBOL</button>
+        <div class="box"></div>
+    </body>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#tombol').click(function(){
+            $('.box').toggle();
+
+            
+        });
+    });
+    </script>
+
+    
+    
+
+</html>
